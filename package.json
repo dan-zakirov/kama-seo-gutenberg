@@ -1,0 +1,31 @@
+{
+	"name": "@wordpress/kama-seo-gutenberg",
+	"version": "0.1.0",
+	"author": "Dan Zakirov",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"generate-pot": "wp i18n make-pot . languages/kst-gi.pot",
+		"generate-po": "msginit --input=languages/kst-gi.pot --output=languages/kst-gi-ru_RU.po --locale=ru_RU --no-translator",
+		"compile-mo": "msgfmt -o languages/kst-gi-ru_RU.mo languages/kst-gi-ru_RU.po",
+		"make-json": "wp i18n make-json languages --no-purge"
+
+	},
+	"files": [
+		"*"
+	],
+	"devDependencies": {
+		"@wordpress/scripts": "^26.15.0",
+		"css-loader": "^7.1.1",
+		"postcss": "^8.1.14",
+		"postcss-sort-media-queries": "^3.2.3",
+		"sass": "^1.32.5",
+		"sass-loader": "^10.1.1",
+		"style-loader": "^4.0.0"
+	},
+	"dependencies": {
+		"@wordpress/icons": "^9.46.0",
+		"adm-zip": "^0.5.12"
+	}
+}

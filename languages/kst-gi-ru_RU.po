@@ -1,0 +1,183 @@
+# Copyright (C) 2024 Dan Zakirov
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kama SEO Tags Gutenberg Integration 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kama-seo-"
+"gutenberg\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-21T20:06:21+00:00\n"
+"PO-Revision-Date: 2024-04-21T20:06:21+00:00\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: kst-gi\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+#: H:\laragon\www\gutenberg-test\wp-content\plugins\kama-seo-gutenberg\kama-seo-gutenberg.php
+msgid "Kama SEO Tags Gutenberg Integration"
+msgstr "Kama SEO Tags Gutenberg Integration"
+
+#. Description of the plugin
+#: H:\laragon\www\gutenberg-test\wp-content\plugins\kama-seo-gutenberg\kama-seo-gutenberg.php
+msgid ""
+"Easily edit SEO meta fields like title, description, and more directly "
+"within the Gutenberg editor with our plugin, 'Kama SEO Tags Gutenberg "
+"Integration.' Streamline your SEO workflow and boost your website's "
+"visibility effortlessly."
+msgstr ""
+"Легко редактируйте мета-поля SEO, такие как заголовок, описание и многое "
+"другое непосредственно в редакторе Gutenberg с помощью нашего плагина, "
+"'Интеграция Kama SEO Tags с Gutenberg.' Оптимизируйте свой рабочий процесс "
+"SEO и повышайте видимость вашего веб-сайта без усилий."
+
+#. Author of the plugin
+#: H:\laragon\www\gutenberg-test\wp-content\plugins\kama-seo-gutenberg\kama-seo-gutenberg.php
+msgid "Dan Zakirov"
+msgstr "Dan Zakirov"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:84
+msgid "filled"
+msgstr "заполнено"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:85
+msgid "not filled"
+msgstr "не заполнено"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:86
+msgid "indexed"
+msgstr "в индексе"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:166
+msgid "Settings SEO Tags"
+msgstr "Настройки SEO тегов"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:182
+msgid "Kama SEO Tags initialized!"
+msgstr "Kama SEO Tags установлен!"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:186
+msgid "Click the button below to modify SEO description!"
+msgstr "Нажмите кнопку ниже, чтобы изменить описание SEO!"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:190
+msgid "Modify SEO Settings"
+msgstr "Изменить настройки SEO"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:200
+msgid "Enable SEO Keywords"
+msgstr "Включить мета-тег Keywords"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:202
+msgid ""
+"The \"keywords\" meta tag is not considered by Google and most modern search "
+"engines as a ranking factor. Today, the emphasis is on the quality and "
+"relevance of content. So, the use of the \"keywords\" meta tag is not "
+"mandatory, and it's more important to focus on creating high-quality and "
+"relevant content for users. However, some older and less popular search "
+"engines may still consider this tag."
+msgstr ""
+"Мета-тег \"keywords\" не рассматривается Google и большинством современных "
+"поисковых систем как фактор ранжирования. Сегодня основной упор делается на "
+"качество и релевантность контента. Поэтому использование мета-тега "
+"\"keywords\" не является обязательным, и более важно сосредоточиться на "
+"создании качественного и релевантного контента для пользователей. Тем не "
+"менее, некоторые старые и менее популярные поисковые системы всё ещё могут "
+"учитывать этот тег."
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:217
+#: src/kama-seo-gutenberg.js:356 src/kama-seo-gutenberg.js:358
+msgid "Kama SEO Tags"
+msgstr "SEO мета теги"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:221
+#: src/kama-seo-gutenberg.js:293
+msgid "SEO Title"
+msgstr "Заголовок SEO"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:222
+msgid "Enter a concise and catchy title for SEO"
+msgstr "Введите краткий и привлекательный заголовок для SEO"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:229
+msgid "Ideally, it should be under "
+msgstr "В идеале, он должен быть менее "
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:233
+msgid " characters."
+msgstr " символов."
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:239
+#: src/kama-seo-gutenberg.js:296
+msgid "SEO Description"
+msgstr "Описание SEO"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:240
+msgid "Provide a brief and relevant description of the content"
+msgstr "Предоставьте краткое и релевантное описание контента"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:248
+msgid "Aim for "
+msgstr "Стремитесь к "
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:252
+msgid " characters or less."
+msgstr " символов или меньше."
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:259
+#: src/kama-seo-gutenberg.js:300
+msgid "SEO Keywords"
+msgstr "Ключевые слова"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:260
+msgid "Enter relevant keywords separated by commas"
+msgstr "Введите соответствующие ключевые слова, разделенные запятыми"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:266
+msgid "Choose words or phrases that users might search for."
+msgstr "Выберите слова или фразы, которые пользователи могут искать."
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:271
+msgid "SEO Robots (noindex)"
+msgstr "SEO Роботы (noindex)"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:284
+msgid "Save fields"
+msgstr "Сохранить мета-теги"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:292
+msgid "SEO Description Status"
+msgstr "Статус описания SEO"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:304
+msgid "Indexing"
+msgstr "Индексация"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:325
+msgid "We did not detect the Kama_SEO_Tags class in use."
+msgstr "Мы не обнаружили использование класса Kama_SEO_Tags."
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:329
+msgid "Make sure the class is installed and initialized."
+msgstr "Убедитесь, что класс установлен и инициализирован."
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:333
+msgid "You can find more details in this article"
+msgstr "Вы можете найти более подробные сведения в этой статье"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:334
+msgid "https://wp-kama.com/2320/seo-meta-tags-without-plugins"
+msgstr "https://wp-kama.ru/id_9537/seo-meta-tegi-bez-plaginov.html"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:335
+msgid "here"
+msgstr "тут"
+
+#: build/kama-seo.js:1 src/kama-seo-gutenberg.js:339
+msgid "Also, make sure you have initialized the "
+msgstr "Также убедитесь, что вы инициализировали "
