@@ -16,7 +16,7 @@
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Text domain
+ * Plugin text domain
  */
 function kst_gi_load_textdomain() {
     load_plugin_textdomain( 'kst-gi', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
