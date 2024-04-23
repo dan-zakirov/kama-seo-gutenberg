@@ -125,4 +125,4 @@ function kst_gi_init_post_meta_field() {
 
 }
 
-add_action('init', 'kst_gi_init_post_meta_field');
+add_action('init', 'kst_gi_init_post_meta_field', 999);
