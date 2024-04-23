@@ -29,7 +29,6 @@ import {help, postList} from '@wordpress/icons';
 
 const SeoIcon = (
     <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="800px" height="800px" viewBox="0 0 32 32" id="icon">
-        <title>term</title>
         <path d="M28,26H25V24h3V8H25V6h3a2.0023,2.0023,0,0,1,2,2V24A2.0027,2.0027,0,0,1,28,26Z"/>
         <circle cx="23" cy="16" r="2"/>
         <circle cx="16" cy="16" r="2"/>
