@@ -28,6 +28,13 @@ add_action( 'plugins_loaded', 'kst_gi_load_textdomain' );
  * Enqueue Gutenberg
  */
 function kst_gi_enqueue_block_editor_assets() {
+
+    $screen = get_current_screen();
+
+    if ( $screen->base === 'customize' || $screen->base === 'widgets' ) {
+        return;
+    }
+
     $kama_seo_gutenberg = plugin_dir_path( __FILE__ ) . 'build/kama-seo.asset.php';
 
     if ( file_exists( $kama_seo_gutenberg ) ) {
@@ -61,6 +68,7 @@ function kst_gi_enqueue_block_editor_assets() {
         );
 
     }
+
 }
 add_action( 'enqueue_block_editor_assets', 'kst_gi_enqueue_block_editor_assets' );
 
